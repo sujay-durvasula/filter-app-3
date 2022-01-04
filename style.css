@@ -1,0 +1,24 @@
+body{
+   background-color: brown; 
+}
+#snap{border: ridge;
+border-color: red;
+border-width: 5px;}
+
+canvas{border-style: groove;
+border-color:greenyellow ;
+border-width: 5px;}
+h3{font-size: 25px !important;
+font-weight: bold;}
+.btn-primary:hover{background-color: gold;}
+canvas{animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;}
+
+@keyframes example
+{
+   from{box-shadow:1px 1px 38px greenyellow;}
+   to{
+     box-shadow:1px 1px 38px blue; 
+   }
+}
